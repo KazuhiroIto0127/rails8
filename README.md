@@ -1,24 +1,6 @@
-# README
+This is Rails8 playground.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Created by follow article.
 
-Things you may want to cover:
+https://guides.rubyonrails.org/getting_started.html#deploying-to-production
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
