@@ -44,6 +44,6 @@ class ProductsController < ApplicationController
     end
 
     def prodcut_params
-      params.expect(product: [ :name, :description, :featured_image ])
+      params.expect(product: [ :name, :description, :featured_image, :inventory_count ])
     end
 end
