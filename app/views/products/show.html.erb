@@ -1,4 +1,7 @@
 <% cache @product do %>
+  <% if @product.featured_image.attached? %>
+    <%= image_tag @product.featured_image, style: "width: 100%; max-width: 300px;" %>
+  <% end %>
   <h1><%= @product.name %></h1>
   <%= @product.description %>
 <% end %>
